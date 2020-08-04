@@ -22,7 +22,7 @@ int main(){
       printf("Round %d: Tails\n",i);
       tail++;
     }
-    printf("%d\n",s);
+    
     if(head == 2 || tail == 2)break;
   }
   printf("Heads: %d, Tails: %d\n",head,tail);
