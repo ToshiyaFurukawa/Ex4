@@ -3,6 +3,12 @@
 #include <time.h>
 int main(){
   int i,s,head = 0,tail = 0;
+  char name[10];
+  
+  printf("Who are you?\n");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
+  
   printf("Tossing a coin...\n");
   srand(time(NULL));
   for(i = 1; i < 6; i++){
