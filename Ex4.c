@@ -26,7 +26,7 @@ int main(){
     if(head == 2 || tail == 2)break;
   }
   printf("Heads: %d, Tails: %d\n",head,tail);
-  if(head == 2)printf("%s won!\n",name);
-  else printf("%s lost!\n",name);
+  if(head == 2)printf("you won!\n");
+  else printf("you lost!\n");
   return 0;
 }
